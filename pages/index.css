@@ -137,7 +137,7 @@
   line-height: 30px;
 }
 
-.videos {
+.recipes__videos {
   display: flex;
   list-style-type: none;
   column-gap: 40px;
@@ -147,13 +147,13 @@
   justify-content: center;
 }
 
-.videos__list {
+.recipes__videos-list {
   color: #ffffff;
   text-decoration: none;
   font-weight: bolder;
 }
 
-.videos__list-description {
+.recipes__videos-list-description {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
