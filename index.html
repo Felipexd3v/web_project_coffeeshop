@@ -38,8 +38,10 @@
           />
 
           <ul class="nav__links">
-            <li><a href="#" class="nav__link"></a>Receitas</li>
-            <li><a href="#" class="nav__link"></a>Reservar uma mesa</li>
+            <li><a href="#recipes" class="nav__link"></a>Receitas</li>
+            <li>
+              <a href="#reservation" class="nav__link"></a>Reservar uma mesa
+            </li>
             <li><a href="#" class="nav__link"></a>Contatos</li>
           </ul>
         </nav>
@@ -52,7 +54,11 @@
           Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
           você e vibrações aconchegantes para soltar a criatividade.
         </p>
-        <img class="image" src="./images/inside_coffee_shop.png" alt="imagem" />
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="imagem"
+        />
 
         <div class="header__footer">
           <div
@@ -68,12 +74,12 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <h2 class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
           </h2>
-          <ul class="videos">
+          <ul class="recipes__videos">
             <li class="videos__list">
               <iframe
                 class="recipes__iframe"
@@ -103,7 +109,7 @@
             </li>
           </ul>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
