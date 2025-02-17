@@ -42,6 +42,7 @@
   color: #fff;
   border: none;
   margin-bottom: 32px;
+  cursor: pointer;
 }
 .reservation__button:hover {
   opacity: 0.7;
